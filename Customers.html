@@ -1,0 +1,266 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costumer</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+    <nav class="navbar has-shadow">
+        <div class="navbar-brand">
+            <a class="navbar-item">
+                <img src="/Gambar/FB_IMG_1578711013686.jpg" alt="Logo">
+            </a>
+            <div class="navbar-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <div class="navbar-item">
+                    <small>Publishing at the speed of technology</small>
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <div class="navbar-link">
+                        Alex Johnson
+                    </div>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            <div>
+                                <span class="icon is-small">
+                                    <i class="fa fa-user-circle-o"></i>
+                                </span>
+                                Profile
+                            </div>
+                        </a>
+                        <a class="navbar-item">
+                            <div>
+                                <span class="icon is-small">
+                                    <i class="fa fa-bug"></i>
+                                </span>
+                                Report Bug
+                            </div>
+                        </a>
+                        <a class="navbar-item">
+                            <div>
+                                <span class="icon is-small">
+                                    <i class="fa fa-sign-out"></i>
+                                </span>
+                                Sign Out
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="section">
+        <div class="columns">
+          <div class="column is-4-tablet is-3-desktop is-2-widescreen">
+            <nav class="menu">
+              <p class="menu-label">
+                Menu
+              </p>
+              <ul class="menu-list">
+                <li>
+                  <a href="dashboard.html">
+                    <span class="icon">
+                      <i class="fa fa-tachometer"></i>
+                    </span>
+                    Dashboard
+                    </a>
+                </li>
+                <li>
+                  <a href="Book.html">
+                    <span class="icon">
+                      <i class="fa fa-book"></i>
+                    </span>
+                    Books
+                  </a>
+                </li>
+                <li>
+                  <a class="is-active" href="customers.html">
+                    <span class="icon">
+                      <i class="fa fa-address-book"></i>
+                    </span>
+                    Customers
+                  </a>
+                </li>
+                <li>
+                  <a href="orders.html">
+                    <span class="icon">
+                      <i class="fa fa-file-text-o"></i>
+                    </span>
+                    Orders
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+            <div class="column">
+                <h1 class="title">Costumers</h1>
+
+                <nav class="level">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <p class="subtitle is-5">
+                        <strong>6</strong> Costumers
+                      </p>
+                    </div>
+
+                    <p class="level-item">
+                      <a class="button is-success" href="new-customer.html">New</a>
+                    </p>
+
+                    <div class="level-item is-hidden-tablet-only">
+                      <div class="field has-addons">
+                        <p class="control">
+                          <input class="input" type="text" placeholder="Name, Email...">
+                        </p>
+                        <p class="control">
+                          <button class="button">
+                            Search
+                          </button>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="level-right">
+                    <p class="level-item"><strong>ALL</strong></p>
+                    <p class="level-item"><a>With orders</a></p>
+                    <p class="level-item"><a>Without orders</a></p>
+                  </div>
+                </nav>
+
+                <table class="table is-hoverable is-fullwidth">
+                  <thead>
+                    <tr>
+                      <th class="is-narrow">
+                        <input type="checkbox">
+                      </th>
+                      <th>Name</th>
+                      <th>Email</th>
+                      <th>Country</th>
+                      <th>Orders</th>
+                      <th>Actions</th>
+                    </tr>
+                  </thead>
+                  <tfoot>
+                    <tr>
+                      <th class="is-narrow">
+                        <input type="checkbox">
+                      </th>
+                      <th>Name</th>
+                      <th>Email</th>
+                      <th>Country</th>
+                      <th>Orders</th>
+                      <th>Actions</th>
+                    </tr>
+                  </tfoot>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <input type="checkbox">
+                      </td>
+                      <td>
+                        <a href="Edit-customer.html">
+                          <strong>Fadhil Rahman</strong>
+                        </a>
+                      </td>
+                      <td><code>fadhilrahman0814@gmail.com</code></td>
+                      <td>Indonesia</td>
+                      <td>
+                        <a href="Customers-orders.html">7</a>
+                      </td>
+                      <td>
+                        <div class="button">
+                          <a class="button is-small" href="edit-customer.html">Edit</a>
+                          <a class="button is-small">Delete</a>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input type="checkbox">
+                      </td>
+                      <td>
+                        <a href="Edit-customer">
+                          <strong>Saipuloh Udin</strong>
+                        </a>
+                      </td>
+                      <td><code>udinsaipuloh69@gmail.com</code></td>
+                      <td>Indonesia</td>
+                      <td>
+                        <a href="Customers-orders.html">7</a>
+                      </td>
+                      <td>
+                        <div class="button">
+                          <a class="button is-small" href="edit-customer.html">Edit</a>
+                          <a class="button is-small">Delete</a>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input type="checkbox">
+                      </td>
+                      <td>
+                        <a href="Edit-customer">
+                          <strong>Siti Cakung</strong>
+                        </a>
+                      </td>
+                      <td><code>stee1407@gmail.com</code></td>
+                      <td>Indonesia</td>
+                      <td>
+                        <a href="Customers-orders.html">7</a>
+                      </td>
+                      <td>
+                        <div class="button">
+                          <a class="button is-small" href="edit-customer.html">Edit</a>
+                          <a class="button is-small">Delete</a>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <nav class="pagination">
+                  <a class="pagination-previous">Previous</a>
+                  <a class="pagination-next">Next page</a>
+                  <ul class="pagination-list">
+                    <li>
+                      <a class="pagination-link">1</a>
+                    </li>
+                    <li>
+                      <span class="pagination-ellipsis">&hellip;</span>
+                    </li>
+                    <li>
+                      <a class="pagination-link">45</a>
+                    </li>
+                    <li>
+                      <a class="pagination-link is-current">46</a>
+                    </li>
+                    <li>
+                      <a class="pagination-link">47</a>
+                    </li>
+                    <li>
+                      <span class="pagination-ellipsis">&hellip;</span>
+                    </li>
+                    <li>
+                      <a class="pagination-link">86</a>
+                    </li>
+                  </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
